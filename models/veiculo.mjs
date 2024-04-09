@@ -7,7 +7,7 @@ const veiculo = sequelize.define('veiculo', {
 
 });
 
-await veiculo.sync({force:true})
+await veiculo.sync()
 
 export default veiculo
 
