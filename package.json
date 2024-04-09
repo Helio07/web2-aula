@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.mjs",
   "scripts": {
-    "start": "node --watch app.mjs",
+    "start": "node  app.mjs",
     "production": "pm2 start app.mjs --name app-backend"
   },
   "author": "Helio",
