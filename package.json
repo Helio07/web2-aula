@@ -4,15 +4,18 @@
   "description": "",
   "main": "app.mjs",
   "scripts": {
-    "start": "node  app.mjs",
+    "start": "nodemon  app.mjs",
     "production": "pm2 start app.mjs --name app-backend"
   },
   "author": "Helio",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-session-sequelize": "^7.1.7",
+    "cors": "^2.8.5",
     "express": "^4.19.2",
+    "express-session": "^1.18.0",
     "mysql2": "^3.9.3",
-    "pm2": "^5.3.1",
     "sequelize": "^6.37.2"
   }
 }
